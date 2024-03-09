@@ -1,0 +1,97 @@
+
+header{
+    background-color: aquamarine;
+    color: darkblue;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+}
+
+body{
+    display: block;
+    background-image: url(Ocean.jpg);
+}
+
+#name{
+    float: left;
+    width: 100%;
+}
+
+main img{
+ margin-left: 10%;
+    width: 200px;
+    height: 250px;
+    border: 5px solid purple;
+    border-radius: 20%;
+    
+}
+
+.About-me{
+ display: inline-block;
+ border: 5px dashed pink;
+ height: 850px;
+ width: 35%;
+
+}
+
+.About-me p{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border-radius: 15px 15px; */
+    max-width: 400px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+
+.showcase {
+    /* margin: 20px; */
+    width: 65%;
+    height: 850px;
+    display: block;
+    float:right;
+    border: solid pink;
+}
+
+.showcase p{
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+
+
+span p{
+    display: inline; 
+    width: 10%;
+    border: 5px dashed pink;
+    
+}
+
+footer{
+ 
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    /* border: 15px solid pink; */
+    background-color: aquamarine;
+}
+
+footer section{ 
+    display: inline; 
+    margin: 5px;
+    float: inline-end;
+    
+} 
+
+#parting{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
