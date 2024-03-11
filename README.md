@@ -2,7 +2,7 @@
 
 ## below is the criteria for the portfolio project
 
-### GIVEN I need to sample a potential employee's previous work
+# GIVEN I need to sample a potential employee's previous work
 # WHEN I load their portfolio
 # THEN I am presented with the developer's name, a recent photo or avatar, # and links to sections about them, their work, and how to contact them
 # WHEN I click one of the links in the navigation
@@ -15,3 +15,5 @@
 # THEN I am taken to that deployed application
 # WHEN I resize the page or view the site on various screens and devices
 # THEN I am presented with a responsive layout that adapts to my viewport  
+
+<!-- The purpose of this code. Is to provide a main hub ofr all projects that will be created by Jemeric Thomas. It consist of links that operate but currently do not lead to any other page. It is constructed to resize the majority of elements dpending on the screen size. -->
