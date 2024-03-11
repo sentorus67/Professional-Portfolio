@@ -16,4 +16,5 @@
 # WHEN I resize the page or view the site on various screens and devices
 # THEN I am presented with a responsive layout that adapts to my viewport  
 
-<!-- The purpose of this code. Is to provide a main hub ofr all projects that will be created by Jemeric Thomas. It consist of links that operate but currently do not lead to any other page. It is constructed to resize the majority of elements dpending on the screen size. -->
+<!-- The purpose of this code. Is to provide a main hub ofr all projects that will be created by Jemeric Thomas. It consist of links that operate but currently do not lead to any other page. 
+It is constructed to resize the majority of elements dpending on the screen size. -->
