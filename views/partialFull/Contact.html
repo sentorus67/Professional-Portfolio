@@ -24,18 +24,31 @@
     </header>
 
     
-        <p>
-            <form>
-                email
-            </form>
-            <form>
-                subject
-            </form>
-            <form>
-                The text to type in
-            </form>
+       <main class="card mx-auto overflow-auto align-items-center bg-primary-subtle border-primary">
+   
+
+
+        <div class="mb-4 w-50">
+            <label for="exampleFormControlInput1" class="form-label fs-3">Email address</label>
+            <input type="email" class="form-control border-success"  placeholder="name@example.com">
+        </div>
         
-        </p>
+        <div class="mb-4 w-50">
+            <label for="exampleFormControlInput1" class="form-label fs-3">Subject</label>
+            <input type="text" class="form-control border-success"  placeholder="Reason for mailing">
+        </div>
+
+        <div class="mb-2 w-50">
+            <label for="exampleFormControlInput1" class="form-label fs-3">Content</label>
+            <input type="text" class="form-control border-success overflow-auto" style="height: 150px;" placeholder="Fill in main content here">
+        </div>
+        <fieldset disabled class="my-2">
+            <button type="submit" class="btn btn-primary">Email submissisons are still WIP</button>
+
+        </fieldset>
+  
+
+       </main>
 
   
 
