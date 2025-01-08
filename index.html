@@ -7,80 +7,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Jemeric's Portfolio</title> 
         <link rel="stylesheet" href="Assets/reset.css">
-         <link rel="stylesheet" href="Assets/style.css"> 
+        <!-- <link rel="stylesheet" href="Assets/style.css">  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  </head>
+  </head >
 
-  <body>
-        <header>
-            <h1 id="name">Jemeric S. Thomas</h1>
-            <a href="#about-section">About Me</a>
-            <a href="#Projects">My Projects</a>
-            <a href="#Contacts">Contacts</a>
+  <body class="bg-primary-subtle">
+        <header class="header d-flex flex-column align-items-center mb-3">
+            <h1 id="name" class="p-2">Jemeric S. Thomas</h1>
+            <div>
+                <a href="./views/partialFull/Aboutme.html" class="p-2">About Me</a>
+                <a href="./views/partialFull/projects.html" class="p-2">My Projects</a>
+                <a href="./views/partialFull/games.html" class="p-2">My Games</a>
+                <a href="./views/partialFull/Contact.html" class="p-2">Contact me</a>
+            </div>
+        
         </header>
 
 
         <main>
-            <section class="About-me">
-                <h2 id="about-section"> Who am I?</h2>
-                <img src="Assets/Box Jelly.jpg" alt="An illustration of a box jellyfish"/>
-                <p style="overflow-y: scroll;">I'm the voice in your head. Im snow that starts the avalanche.
-                     The first drop of rain before before the hurricane.
-                    Basically, im a pretty big deal. Sed fringilla sollicitudin ex, sit amet tincidunt ligula commodo sit amet. Morbi quis sollicitudin leo. Mauris facilisis viverra libero vel fringilla.
-                     Maecenas laoreet interdum aliquam. Etiam gravida dapibus dignissim. Integer at sem purus. Sed semper, elit in lobortis semper, diam nisi interdum dolor, vitae scelerisque justo dolor id neque
-                    <span id="below"> Seeing as you found this. Your pretty cool too.</span>
-                </p>
-
-            </section>
-
-            <section class="showcase">
-                <h2 id="Projects"> My Projects</h2>
-                <p>Here is a list of all my projects: </p>
-
-                <span class="Project-viewing">
-                    <a href="#">
-                        <p>Coming Soon</p>
-                    </a>
-                </span>
-
-                <span class="Project-viewing">
-                    <a href="#">
-                        <p>Coming Soon</p>
-                    </a>
-                </span>
-
-                <span class="Project-viewing">
-                    <a href="#">
-                        <p>Coming Soon</p>
-                    </a>
-                </span>
-
-            </section>
+           <p>
+            Hello, and welcome to my Website. Here you will able to see all of work as a full time programmer and developer.
+           </p>
 
         </main>
 
-        <footer>
-
-            <h3 id="Contacts"> Contact Information:</h3>
-
-            <section class="Contact-information">
-                <p>Email: </p>
-                <a href="#">*********@email.com </a>
-            </section>
-
-            <section class="Contact-information">
-                <p>Mobile Phone: </p>
-                <a href="#">555-111-1234 </a>
-            </section>
-
-            <section class="Contact-information">
-                <p>Github: </p>
-                <a href="#">Jemeric </a>
-            </section>
-
-            <p id="parting">Thank you for visting</p>
-
+        <footer class="header d-flex flex-column align-items-center mb-3  position-absolute bottom-0 w-100">
+            <div class="d-flex ">
+                <h3 id="Contacts" class="p-2"> Find me on:</h3>
+    
+                <section class="p-2">
+                   
+                    <a href="https://github.com/sentorus67">
+                        <img src="./Assets/github.svg" alt="A link to my Github"/>
+                    </a>
+                </section>
+    
+                <section class="p-2">
+                    <a hre>
+                        <img src ='./Assets/icons8-linkedin.svg' alt="A link to my Linkedin"/>
+                    </a>
+                  
+                </section>
+            </div>
+           
+    
+    
+            <p id="parting">Thank you for visting!</p>
+    
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 
 </html>
